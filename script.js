@@ -89,10 +89,10 @@ const alitas = [
 ];
 
 const hamburguesas = [
-    { name: "Hamburguesa de Res Clásica", price: 170, desc: "Cheddar, bacon y salsa rosada.", img: "../img/crop_hamburguesasvariadas.jpeg" },
-    { name: "Hamburguesa Texana", price: 170, desc: "Res, con salsa BBQ y cheddar.", img: "../img/crop_hmaburguesaTexana.jpeg" },
-    { name: "Hamburguesa Buffalo/Ranch", price: 160, desc: "Pechuga de pollo picante.", img: "../img/crop_hamburguesaBuffalo.jpeg" },
-    { name: "Hamburguesa de Pollo", price: 170, desc: "Jamón de pavo y queso suizo.", img: "../img/crop_hamburguesapollo.jpeg" },
+    { name: "Hamburguesa de Res Clásica", price: 170, desc: "Cheddar, bacon y salsa rosada.", img: "img/crop_hamburguesasvariadas.jpeg" },
+    { name: "Hamburguesa Texana", price: 170, desc: "Res, con salsa BBQ y cheddar.", img: "img/crop_hmaburguesaTexana.jpeg" },
+    { name: "Hamburguesa Buffalo/Ranch", price: 160, desc: "Pechuga de pollo picante.", img: "img/crop_hamburguesaBuffalo.jpeg" },
+    { name: "Hamburguesa de Pollo", price: 170, desc: "Jamón de pavo y queso suizo.", img: "img/crop_hamburguesapollo.jpeg" },
     { name: "Hamburguesa Americana", price: 200, desc: "Doble carne, doble queso.", img: null },
     { name: "Hamburguesa de Cerdo", price: 170, desc: "Tocino y queso pepper jack.", img: null },
     { name: "Hamburguesa de Pollo con Crema Ahumada", price: 170, desc: "Tocino y queso cheddar.", img: null },
