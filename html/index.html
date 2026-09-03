@@ -5,10 +5,11 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Home Wings Siguatepeque — Alitas, Hamburguesas y más</title>
 <meta name="description" content="Home Wings — Homemade Dips and Sauces. Alitas, hamburguesas, boneless y nachos hechos en casa en Siguatepeque. Pide por WhatsApp."/>
-<link rel="icon" href="img/logo_home_wings.png"/>
+<link rel="icon" href="../img/logo_home_wings.png"/>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Domine:wght@400;700;900&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="../css/styles.css"/>
 <script id="tailwind-config">
     tailwind.config = {
         darkMode: "class",
@@ -89,50 +90,6 @@
         }
     };
 </script>
-<style>
-    body {
-        background-color: #fff8f5;
-        background-image: url('data:image/svg+xml,%3Csvg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noiseFilter"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noiseFilter)" opacity="0.03"/%3E%3C/svg%3E');
-    }
-    .checkered-divider {
-        height: 16px;
-        background-image: repeating-linear-gradient(45deg, #231a14 25%, transparent 25%, transparent 75%, #231a14 75%, #231a14), repeating-linear-gradient(45deg, #231a14 25%, #fff8f5 25%, #fff8f5 75%, #231a14 75%, #231a14);
-        background-position: 0 0, 8px 8px;
-        background-size: 16px 16px;
-        border-top: 2px solid #5C2E0F;
-        border-bottom: 2px solid #5C2E0F;
-    }
-    .btn-primary { transition: all 0.1s ease; }
-    .btn-primary:active { transform: translate(2px, 2px); box-shadow: none !important; }
-    .card-hover { transition: all 0.2s ease; }
-    .card-hover:hover { transform: translate(-3px, -3px); box-shadow: 5px 5px 0px 0px #5C2E0F; }
-    .menu-row .leader {
-        flex: 1 1 auto;
-        border-bottom: 2px dotted #C6AE9C;
-        margin: 0 8px;
-        transform: translateY(-5px);
-        min-width: 12px;
-    }
-    .chip {
-        display: inline-flex;
-        align-items: center;
-        gap: 6px;
-        border: 2px solid #5C2E0F;
-        padding: 6px 14px;
-        font-family: 'Barlow Condensed', sans-serif;
-        font-weight: 700;
-        font-size: 15px;
-        letter-spacing: 0.02em;
-        text-transform: uppercase;
-        background: #ffffff;
-        color: #231a14;
-    }
-    .photo-pending {
-        background: repeating-linear-gradient(135deg, #f7e5db, #f7e5db 10px, #f1dfd5 10px, #f1dfd5 20px);
-    }
-    #mobile-menu.open { display: flex; }
-    .anchor-offset { scroll-margin-top: 84px; }
-</style>
 </head>
 <body class="text-on-surface font-body-md antialiased relative pt-[72px]">
 
@@ -146,7 +103,7 @@
 <nav class="bg-surface border-b-2 border-on-surface-variant fixed top-0 left-0 w-full z-40 px-gutter py-sm">
 <div class="flex justify-between items-center max-w-container-max mx-auto h-full">
     <a href="#inicio" class="font-display-lg text-headline-lg text-primary uppercase tracking-tighter flex items-center gap-2">
-        <img alt="Home Wings" class="h-12 w-auto" src="img/logo_home_wings.png"/>
+        <img alt="Home Wings" class="h-12 w-auto" src="../img/logo_home_wings.png"/>
         <span class="hidden md:inline">Home Wings</span>
     </a>
     <ul class="hidden md:flex gap-lg items-center">
@@ -180,7 +137,7 @@
 <!-- Hero Section -->
 <section id="inicio" class="anchor-offset relative w-full overflow-hidden border-b-2 border-[#5C2E0F]">
     <div class="absolute inset-0 z-0">
-        <div class="bg-cover bg-center w-full h-full" style="background-image: url('img/crop_hamburguesasvariadas.jpeg')"></div>
+        <div class="bg-cover bg-center w-full h-full" style="background-image: url('../img/crop_hamburguesasvariadas.jpeg')"></div>
         <div class="absolute inset-0 bg-surface/85 md:bg-surface/65 backdrop-blur-[2px]"></div>
     </div>
     <div class="relative z-10 max-w-container-max mx-auto px-gutter py-xl md:py-[110px] grid md:grid-cols-2 gap-lg items-center">
@@ -215,7 +172,7 @@
     <a href="#sec-papas" class="chip hover:bg-primary hover:text-on-primary hover:border-primary transition-colors">Papas &amp; Nachos</a>
     <a href="#salsas" class="chip hover:bg-primary hover:text-on-primary hover:border-primary transition-colors">Salsas</a>
     <a href="#sec-bebidas" class="chip hover:bg-primary hover:text-on-primary hover:border-primary transition-colors">Bebidas</a>
-    <a href="img/menucompletohomewings.jpeg" target="_blank" rel="noopener" class="chip bg-surface-container-highest">📋 Menú completo</a>
+    <a href="../img/menucompletohomewings.jpeg" target="_blank" rel="noopener" class="chip bg-surface-container-highest">📋 Menú completo</a>
 </div>
 
 <!-- ALITAS -->
@@ -225,7 +182,7 @@
         <p class="mt-xs text-on-surface-variant font-body-lg">Fritas al momento, bañadas en la salsa que tú elijas</p>
     </div>
     <div class="grid md:grid-cols-[minmax(0,340px)_1fr] gap-lg items-start">
-        <img src="img/crop_alitasVariadas.jpeg" alt="Alitas variadas Home Wings" class="w-full h-full max-h-[520px] object-cover border-2 border-[#5C2E0F] shadow-[4px_4px_0px_0px_#5C2E0F]"/>
+        <img src="../img/crop_alitasVariadas.jpeg" alt="Alitas variadas Home Wings" class="w-full h-full max-h-[520px] object-cover border-2 border-[#5C2E0F] shadow-[4px_4px_0px_0px_#5C2E0F]"/>
         <div id="list-alitas" class="bg-surface-container-lowest border-2 border-[#5C2E0F] p-md flex flex-col gap-sm"></div>
     </div>
 </section>
@@ -285,7 +242,7 @@
                 <div id="list-nachos" class="flex flex-col gap-sm"></div>
             </div>
         </div>
-        <img src="img/crop_nachos.jpeg" alt="Nachos cargados Home Wings" class="w-full h-full max-h-[420px] object-cover border-2 border-[#5C2E0F] shadow-[4px_4px_0px_0px_#5C2E0F]"/>
+        <img src="../img/crop_nachos.jpeg" alt="Nachos cargados Home Wings" class="w-full h-full max-h-[420px] object-cover border-2 border-[#5C2E0F] shadow-[4px_4px_0px_0px_#5C2E0F]"/>
     </div>
 </section>
 
@@ -337,7 +294,7 @@
 <!-- NOSOTROS -->
 <section class="py-xl max-w-container-max mx-auto px-gutter anchor-offset" id="nosotros">
     <div class="grid md:grid-cols-2 gap-lg items-center">
-        <img src="img/crop_hamburguesapollo.jpeg" alt="Ambiente Home Wings" class="w-full h-full max-h-[420px] object-cover border-2 border-[#5C2E0F] shadow-[6px_6px_0px_0px_#5C2E0F]"/>
+        <img src="../img/crop_hamburguesapollo.jpeg" alt="Ambiente Home Wings" class="w-full h-full max-h-[420px] object-cover border-2 border-[#5C2E0F] shadow-[6px_6px_0px_0px_#5C2E0F]"/>
         <div class="flex flex-col gap-sm">
             <h2 class="font-display-lg text-headline-lg text-on-surface uppercase">Nuestra Historia</h2>
             <p class="font-body-lg text-body-lg text-on-surface-variant">
@@ -369,7 +326,7 @@
     <div class="max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-4 gap-md">
         <div class="flex flex-col gap-sm">
             <div class="font-display-lg text-headline-md text-secondary uppercase flex items-center gap-2">
-                <img alt="Home Wings" class="h-8 w-auto" src="img/logo_home_wings.png"/>
+                <img alt="Home Wings" class="h-8 w-auto" src="../img/logo_home_wings.png"/>
                 Home Wings
             </div>
             <p class="font-body-md text-on-surface-variant text-sm max-w-[220px]">
@@ -395,7 +352,7 @@
             <h4 class="font-headline-md text-label-md text-on-surface uppercase border-b border-[#5C2E0F] pb-1 inline-block w-max mb-2">Menú</h4>
             <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#sec-alitas">Alitas</a>
             <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#sec-hamburguesas">Hamburguesas</a>
-            <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="img/menucompletohomewings.jpeg" target="_blank" rel="noopener">Menú completo (imagen)</a>
+            <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="../img/menucompletohomewings.jpeg" target="_blank" rel="noopener">Menú completo (imagen)</a>
         </div>
     </div>
     <div class="mt-lg pt-sm border-t border-outline-variant text-center max-w-container-max mx-auto">
@@ -403,163 +360,6 @@
     </div>
 </footer>
 
-<script>
-const WHATSAPP_NUMBER = "50433534845";
-function waLink(text) {
-    return "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(text);
-}
-
-// Mobile menu toggle
-document.getElementById("menu-toggle").addEventListener("click", () => {
-    document.getElementById("mobile-menu").classList.toggle("open");
-});
-document.querySelectorAll("#mobile-menu a").forEach(a => {
-    a.addEventListener("click", () => document.getElementById("mobile-menu").classList.remove("open"));
-});
-
-// Fill in every WhatsApp CTA with a generic greeting
-document.querySelectorAll(".wa-cta, #fab-whatsapp").forEach(a => {
-    a.href = waLink("Hola Home Wings! Quiero hacer un pedido 🍔🍗");
-});
-
-function money(n) { return "L " + n; }
-
-function orderIcon(text) {
-    const a = document.createElement("a");
-    a.href = waLink(text);
-    a.target = "_blank";
-    a.rel = "noopener";
-    a.title = "Pedir por WhatsApp";
-    a.className = "shrink-0 text-primary hover:text-on-primary hover:bg-primary border-2 border-[#5C2E0F] w-7 h-7 flex items-center justify-center transition-colors";
-    a.innerHTML = '<span class="material-symbols-outlined text-base">chat</span>';
-    return a;
-}
-
-function renderPriceList(containerId, items) {
-    const el = document.getElementById(containerId);
-    items.forEach(item => {
-        const row = document.createElement("div");
-        row.className = "menu-row flex items-center gap-1";
-        row.innerHTML =
-            '<span class="font-body-md text-on-surface">' + item.name + (item.note ? ' <span class="text-on-surface-variant text-sm">(' + item.note + ')</span>' : '') + '</span>' +
-            '<span class="leader"></span>' +
-            '<span class="font-headline-md text-headline-md text-primary shrink-0">' + money(item.price) + '</span>';
-        row.appendChild(orderIcon("Hola Home Wings! Quiero pedir: " + item.name + " (" + money(item.price) + ")"));
-        el.appendChild(row);
-    });
-}
-
-function renderBurgerCards(containerId, items) {
-    const el = document.getElementById(containerId);
-    items.forEach(item => {
-        const card = document.createElement("article");
-        card.className = "bg-surface-container-lowest border-2 border-[#5C2E0F] relative flex flex-col card-hover";
-        const imgHtml = item.img
-            ? '<img class="w-full h-full object-cover" src="' + item.img + '" alt="' + item.name + '"/>'
-            : '<div class="w-full h-full photo-pending flex flex-col items-center justify-center gap-1 text-on-surface-variant">' +
-                '<span class="material-symbols-outlined text-4xl">photo_camera</span>' +
-                '<span class="font-label-md text-label-md uppercase">Foto próximamente</span></div>';
-        card.innerHTML =
-            '<div class="h-48 w-full border-b-2 border-[#5C2E0F] relative overflow-hidden">' + imgHtml +
-            '<div class="absolute top-2 right-2 bg-primary-container border-2 border-[#5C2E0F] px-3 py-1 font-headline-md text-on-primary shadow-[2px_2px_0px_0px_#5C2E0F]">' + money(item.price) + '</div>' +
-            '</div>' +
-            '<div class="p-md flex-grow flex flex-col justify-between gap-sm">' +
-            '<div><h3 class="font-headline-md text-headline-md text-on-surface uppercase mb-xs">' + item.name + '</h3>' +
-            '<p class="font-body-md text-on-surface-variant">' + item.desc + '</p></div>' +
-            '<a class="mt-sm w-full border-2 border-[#5C2E0F] bg-surface-container text-on-surface font-headline-md py-2 hover:bg-primary-container hover:text-on-primary transition-colors uppercase text-center" href="' +
-            waLink("Hola Home Wings! Quiero pedir: " + item.name + " (" + money(item.price) + ")") + '" target="_blank" rel="noopener">Pedir</a>' +
-            '</div>';
-        el.appendChild(card);
-    });
-}
-
-function renderChips(containerId, items, colorClass) {
-    const el = document.getElementById(containerId);
-    items.forEach(name => {
-        const chip = document.createElement("span");
-        chip.className = "chip " + colorClass;
-        chip.textContent = name;
-        el.appendChild(chip);
-    });
-}
-
-// ---- MENU DATA (editable) ----
-const alitas = [
-    { name: "4 alitas con papas", price: 120 },
-    { name: "6 alitas con papas", price: 155 },
-    { name: "8 alitas con papas", price: 195 },
-    { name: "12 alitas", note: "sin papas", price: 250 },
-    { name: "18 alitas", note: "sin papas", price: 370 },
-    { name: "24 alitas", note: "sin papas", price: 480 },
-    { name: "30 alitas", note: "sin papas", price: 585 },
-];
-
-const hamburguesas = [
-    { name: "Hamburguesa de Res Clásica", price: 170, desc: "Cheddar, bacon y salsa rosada.", img: "img/crop_hamburguesasvariadas.jpeg" },
-    { name: "Hamburguesa Texana", price: 170, desc: "Res, con salsa BBQ y cheddar.", img: "img/crop_hmaburguesaTexana.jpeg" },
-    { name: "Hamburguesa Buffalo/Ranch", price: 160, desc: "Pechuga de pollo picante.", img: "img/crop_hamburguesaBuffalo.jpeg" },
-    { name: "Hamburguesa de Pollo", price: 170, desc: "Jamón de pavo y queso suizo.", img: "img/crop_hamburguesapollo.jpeg" },
-    { name: "Hamburguesa Americana", price: 200, desc: "Doble carne, doble queso.", img: null },
-    { name: "Hamburguesa de Cerdo", price: 170, desc: "Tocino y queso pepper jack.", img: null },
-    { name: "Hamburguesa de Pollo con Crema Ahumada", price: 170, desc: "Tocino y queso cheddar.", img: null },
-];
-
-const boneless = [
-    { name: "8 boneless con papas", price: 155 },
-    { name: "12 boneless con papas", price: 195 },
-    { name: "24 boneless con papas", price: 385 },
-];
-
-const snacks = [
-    { name: "6 Mozzarella Sticks", price: 130 },
-    { name: "6 Jalapeño Bombers", price: 130 },
-];
-
-const fingers = [
-    { name: "5 fingers con papas", price: 155 },
-    { name: "8 fingers con papas", price: 195 },
-];
-
-const papas = [
-    { name: "Papa frita pequeña", price: 55 },
-    { name: "Papa frita mediana", price: 100 },
-    { name: "Papa frita familiar", price: 170 },
-    { name: "Papa pequeña preparada", note: "queso cheddar y tocineta", price: 120 },
-    { name: "Papa mediana preparada", note: "queso cheddar y tocineta", price: 175 },
-];
-
-const nachos = [
-    { name: "Nachos pequeños", price: 120 },
-    { name: "Nachos grandes", price: 175 },
-];
-
-const refrescos = [
-    { name: "Refresco personal", price: 30 },
-    { name: "Refresco 1.5 litros", price: 60 },
-    { name: "Refresco 2 litros", price: 70 },
-    { name: "Bote de agua", price: 15 },
-];
-
-const adicionales = [
-    { name: "Copita de cualquier salsa", note: "2 oz", price: 17 },
-];
-
-const salsasPicantes = ["Buffalo", "Sweet-Chilli", "Piña Chipotle", "Mango Habanero"];
-const salsasDulces = ["Barbacoa", "Agridulce", "Maracuyá", "Tamarindo", "Teriyaki", "Honey-Mustard", "Jack Daniel's", "Ajo-Miel"];
-const salsasSaladas = ["Ajo-Parmesano", "Lemon-Pepper"];
-
-renderPriceList("list-alitas", alitas);
-renderBurgerCards("grid-hamburguesas", hamburguesas);
-renderPriceList("list-boneless", boneless);
-renderPriceList("list-snacks", snacks);
-renderPriceList("list-fingers", fingers);
-renderPriceList("list-papas", papas);
-renderPriceList("list-nachos", nachos);
-renderPriceList("list-refrescos", refrescos);
-renderPriceList("list-adicionales", adicionales);
-renderChips("chips-picantes", salsasPicantes, "hover:bg-primary hover:text-on-primary hover:border-primary transition-colors");
-renderChips("chips-dulces", salsasDulces, "hover:bg-secondary hover:text-on-secondary hover:border-secondary transition-colors");
-renderChips("chips-saladas", salsasSaladas, "hover:bg-tertiary hover:text-on-tertiary hover:border-tertiary transition-colors");
-</script>
+<script src="../js/script.js"></script>
 </body>
 </html>
