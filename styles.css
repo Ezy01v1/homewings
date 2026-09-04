@@ -40,5 +40,15 @@ body {
 .photo-pending {
     background: repeating-linear-gradient(135deg, #f7e5db, #f7e5db 10px, #f1dfd5 10px, #f1dfd5 20px);
 }
+.salsa-card { background: #ffffff; }
+.salsa-card-spicy { border-color: #954a00; background: #fdece0; }
+.salsa-card-sweet { border-color: #87512f; background: #fbe6da; }
+.salsa-card-savory { border-color: #5e5e5e; background: #f0eeec; }
+.chip-spicy { background: #ffffff; border-color: #954a00; color: #954a00; }
+.chip-spicy:hover { background: #954a00; border-color: #954a00; color: #ffffff; }
+.chip-sweet { background: #ffffff; border-color: #87512f; color: #87512f; }
+.chip-sweet:hover { background: #87512f; border-color: #87512f; color: #ffffff; }
+.chip-savory { background: #ffffff; border-color: #5e5e5e; color: #5e5e5e; }
+.chip-savory:hover { background: #5e5e5e; border-color: #5e5e5e; color: #ffffff; }
 #mobile-menu.open { display: flex; }
 .anchor-offset { scroll-margin-top: 84px; }

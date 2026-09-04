@@ -254,19 +254,28 @@
         <h2 class="font-display-lg text-headline-lg text-on-surface uppercase border-b-4 border-primary-container inline-block pb-2">Sabores &amp; Salsas</h2>
         <p class="mt-xs text-on-surface-variant font-body-lg">Todas nuestras salsas son 100% hechas en casa</p>
     </div>
-    <div class="grid md:grid-cols-3 gap-lg">
-        <div class="bg-surface-container-lowest border-2 border-[#5C2E0F] p-md">
-            <h3 class="font-headline-md text-headline-md text-on-primary bg-primary inline-block px-3 py-1 uppercase mb-sm">Picantes</h3>
-            <div id="chips-picantes" class="flex flex-wrap gap-2"></div>
+    <div class="grid md:grid-cols-[1fr_minmax(0,320px)] gap-lg items-start">
+        <div class="grid sm:grid-cols-3 gap-lg items-start">
+            <div class="salsa-card salsa-card-spicy border-2 p-md">
+                <h3 class="font-headline-md text-headline-md text-on-primary bg-primary inline-flex items-center gap-1 px-3 py-1 uppercase mb-sm">
+                    <span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>Picantes
+                </h3>
+                <div id="chips-picantes" class="flex flex-wrap gap-2"></div>
+            </div>
+            <div class="salsa-card salsa-card-sweet border-2 p-md">
+                <h3 class="font-headline-md text-headline-md text-on-secondary bg-secondary inline-flex items-center gap-1 px-3 py-1 uppercase mb-sm">
+                    <span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">water_drop</span>Dulces
+                </h3>
+                <div id="chips-dulces" class="flex flex-wrap gap-2"></div>
+            </div>
+            <div class="salsa-card salsa-card-savory border-2 p-md">
+                <h3 class="font-headline-md text-headline-md text-on-tertiary bg-tertiary inline-flex items-center gap-1 px-3 py-1 uppercase mb-sm">
+                    <span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">grain</span>Saladas
+                </h3>
+                <div id="chips-saladas" class="flex flex-wrap gap-2"></div>
+            </div>
         </div>
-        <div class="bg-surface-container-lowest border-2 border-[#5C2E0F] p-md">
-            <h3 class="font-headline-md text-headline-md text-on-primary bg-secondary inline-block px-3 py-1 uppercase mb-sm">Dulces</h3>
-            <div id="chips-dulces" class="flex flex-wrap gap-2"></div>
-        </div>
-        <div class="bg-surface-container-lowest border-2 border-[#5C2E0F] p-md">
-            <h3 class="font-headline-md text-headline-md text-on-tertiary bg-tertiary inline-block px-3 py-1 uppercase mb-sm">Saladas</h3>
-            <div id="chips-saladas" class="flex flex-wrap gap-2"></div>
-        </div>
+        <img src="img/crop_salsaCategorias.jpeg" alt="Categorías de salsas Home Wings" class="w-full h-auto self-start bg-surface-container-lowest border-2 border-[#5C2E0F] shadow-[4px_4px_0px_0px_#5C2E0F] p-2"/>
     </div>
 </section>
 
